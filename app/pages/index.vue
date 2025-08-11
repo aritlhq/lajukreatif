@@ -1,6 +1,5 @@
 <template>
   <div>
-    <HeroSection/>
-    <PricingSection/>
+    hello world
   </div>
 </template>
