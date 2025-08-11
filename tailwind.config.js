@@ -1,15 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./app.vue",
-    "./error.vue"
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+    content: [
+        "./components/**/*.{js,vue,ts}",
+        "./layouts/**/*.vue",
+        "./pages/**/*.vue",
+        "./plugins/**/*.{js,ts}",
+        "./app.vue",
+        "./error.vue"
+    ],
+    theme: {
+        extend: {
+            colors: {
+                'brand-green': '#278a7e',
+                'brand-green-dark': '#207068',
+            }
+        },
+    },
+    plugins: [],
 }
